@@ -45,7 +45,7 @@ module TB_4bit_FA;
 
     initial begin
         $dumpfile("FA_4B_dump.vcd");
-        $dumpvars(0, TB_4B_FA);
+        $dumpvars(0, TB_4bit_FA);
     end
 
     always @(sum or c_out) begin
