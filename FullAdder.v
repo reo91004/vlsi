@@ -20,6 +20,5 @@ module FullAdder(
     );
 
     assign c_out = c1 | c2;
-)
 
 endmodule
