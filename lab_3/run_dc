@@ -1,0 +1,3 @@
+#!/bin/csh -f
+
+dc_shell -f dc_temp.tcl > dc_output.log
